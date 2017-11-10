@@ -9,48 +9,42 @@
 </head>
 <body>
 
-<p id="heading">Green Witch</p>
 
-<h1>CBD Cottage Opens In</h1>
-<div id="clockdiv">
-  <div>
-    <span class="days"></span>
-    <div class="smalltext">Days</div>
-  </div>
-  <div>
-    <span class="hours"></span>
-    <div class="smalltext">Hours</div>
-  </div>
-  <div>
-    <span class="minutes"></span>
-    <div class="smalltext">Minutes</div>
-  </div>
-  <div>
-    <span class="seconds"></span>
-    <div class="smalltext">Seconds</div>
-  </div>
+</span>
+  <button class="hamburger">&#9776;</button>
+  <button class="cross">&#735;</button>
+</header>
+
+<div class="menu">
+  <ul>
+    <a href="#"><li>MEET THE COVEN</li></a>
+    <a href="#"><li>SHOP</li></a>
+    <a href="#"><li>FAQ</li></a>
+    <a href="#"><li>CONTACT</li></a>
+  </ul>
+</div> 
+
+<div id="logo_and_title">
+	<img id="logo" src="green_witch_logo.png">
+	<img id="logo_title" src="green_witch.jpg">
+</div>
+
+<div id="move_description">
+	<p class="hideme">Fresh Ingredients</p>
+	<p class="hideme">Ethnically Sourced</p>
+	<p class="hideme">Globablly Aware</p>
 </div>
 
 
-<img id="logo" src="green_witch_logo.png">
+<img id="farm" src="farm_picture.png">
+
+<p id="bio">Our Coven was formed through a shared belief in the power of herbs, spieces and minerals to...</p>
+
 
 
 
 <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us17.list-manage.com","uuid":"7389b87141ed1f69e7e763169","lid":"c0e6bad048"}) })</script>
 
-<div id="float_products">
-<p class="fade-in1">Capsules</p>
-<p class="fade-in2">Oils</p>
-<p class="fade-in3">Gummies</p>
-</div>
-
-<div id="container">
-    
- 
-    <p id="cbd_heading">CANNABIDIOL (can·na·bi·di·ol)</p>
-    <div class="hideme">Cannabidiol a.k.a CBD is a non-psychoactive component of the hemp plant.
-Because CBD delivers the benefits of medical marijuana without the buzz, it is increasingly being used to treat or supplement treatment of a variety of conditions. CBD is actually very similar to a naturally-occurring compound in our bodies located in the Endocannabinoid system. (which literally means “cannabinoid from within”). The endocannabinoids which are produced here can be located throughout our central nervous system and are responsible for controlling many processes such as sleep, digestion, mood, immune function, motor function, memory, and pain. When CBD is ingested it stimulates the production of endocannabinoids in our body.</div>
-   
 
 <script>
 
@@ -86,5 +80,50 @@ initializeClock('clockdiv', deadline);
 
 </script>    
 
+<script>
+
+$( document ).ready(function() {
+
+$( ".cross" ).hide();
+$( ".menu" ).hide();
+$( ".hamburger" ).click(function() {
+$( ".menu" ).slideToggle( "slow", function() {
+$( ".hamburger" ).hide();
+$( ".cross" ).show();
+});
+});
+
+$( ".cross" ).click(function() {
+$( ".menu" ).slideToggle( "slow", function() {
+$( ".cross" ).hide();
+$( ".hamburger" ).show();
+});
+});
+
+});
+
+</script>
+
 </body>
 </html>
+
+<!-- <h1>CBD Cottage Opens In</h1>
+<div id="clockdiv">
+  <div>
+    <span class="days"></span>
+    <div class="smalltext">Days</div>
+  </div>
+  <div>
+    <span class="hours"></span>
+    <div class="smalltext">Hours</div>
+  </div>
+  <div>
+    <span class="minutes"></span>
+    <div class="smalltext">Minutes</div>
+  </div>
+  <div>
+    <span class="seconds"></span>
+    <div class="smalltext">Seconds</div>
+  </div>
+</div>
+ -->

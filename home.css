@@ -4,16 +4,70 @@
 	margin-left: 20px;
 }
 
+#logo_and_title {
+	margin-left: -30px;
+	margin-top: 0px;
+}
+
 #logo {
-	margin-top: 60px;
-	margin-left: 25%;
-	animation-timing-function: 1s;
-	animation: fadeIn ease 4s;
-	animation-delay: 4s;
-  -webkit-animation: fadeIn ease 4s;
-  -moz-animation: fadeIn ease 4s;
-  -o-animation: fadeIn ease 4s;
-  -ms-animation: fadeIn ease 4s;
+	float: right;
+	margin-top: 120px;
+	width: 300px;
+	height: auto;
+	margin-right: 35%;
+	opacity:0;  /* make things invisible upon start */
+    -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+    -moz-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+    animation-delay: 1s;
+
+    -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+
+    -webkit-animation-duration:1s;
+    -moz-animation-duration:1s;
+    animation-duration:1s;
+}
+
+#logo_title {
+	margin-top: 30px;
+	margin-left: 340px;
+	width: 500px;
+	height: auto;
+	  opacity:0;  /* make things invisible upon start */
+    -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+    -moz-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+    animation-delay: 2.5s;
+
+    -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+
+    -webkit-animation-duration:1s;
+    -moz-animation-duration:1s;
+    animation-duration:1s;
+}
+
+#move_description {
+	margin-top: 250px;
+}
+
+#farm {
+	width: 100%;
+    -webkit-box-reflect:below -1px
+    -webkit-gradient(linear, left top, left bottom, from(transparent),
+    color-stop(20%, transparent) , to(rgba(250, 250, 250, 0.9)));
+}
+
+#bio {
+	margin-top: 200px;
+	font-family: 'avenir next';
+	font-size: 24px;
+	margin-left: 300px;
+	margin-right: 300px;
+	text-align: center;
 }
 
 h1{
@@ -25,6 +79,10 @@ h1{
   float: right;
   margin-top: -80px;
   margin-right: 25px;
+}
+
+li {
+  font-family: 'avenir next';
 }
 
 #clockdiv{
@@ -39,6 +97,7 @@ h1{
 	font-size: 15px;
 
 }
+
 
 #clockdiv > div{
 	padding: 10px;
@@ -117,89 +176,12 @@ h1{
   }
 }
 
+
 @-webkit-keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
 @-moz-keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
 @keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
 
-.fade-in1 {
-    opacity:0;  /* make things invisible upon start */
-    -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
-    -moz-animation:fadeIn ease-in 1;
-    animation:fadeIn ease-in 1;
-    animation-delay: 2s;
 
-    -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
-    -moz-animation-fill-mode:forwards;
-    animation-fill-mode:forwards;
-
-    -webkit-animation-duration:1s;
-    -moz-animation-duration:1s;
-    animation-duration:1s;
-    font-family: 'alpaca scarlett demo', sans-serif;
-    font-size: 24px;
-    margin-left: 205px;
-    float: left;
-}
-
-.fade-in1:hover {
-	cursor: pointer;
-	color: #67bdb3;
-}
-
-.fade-in2 {
-    opacity:0;  /* make things invisible upon start */
-    -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
-    -moz-animation:fadeIn ease-in 1;
-    animation:fadeIn ease-in 1;
-    animation-delay: 2.5s;
-
-    -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
-    -moz-animation-fill-mode:forwards;
-    animation-fill-mode:forwards;
-
-    -webkit-animation-duration:1s;
-    -moz-animation-duration:1s;
-    animation-duration:1s;
-    font-family: 'alpaca scarlett demo', sans-serif;
-    font-size: 24px;
-    margin-left: 200px;
-    float: left;
-}
-
-.fade-in2:hover {
-	cursor: pointer;
-	color: #67bdb3;
-}
-
-.fade-in3 {
-    opacity:0;  /* make things invisible upon start */
-    -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
-    -moz-animation:fadeIn ease-in 1;
-    animation:fadeIn ease-in 1;
-    animation-delay: 3s;
-
-    -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
-    -moz-animation-fill-mode:forwards;
-    animation-fill-mode:forwards;
-
-    -webkit-animation-duration:1s;
-    -moz-animation-duration:1s;
-    animation-duration:1s;
-    font-family: 'alpaca scarlett demo', sans-serif;
-    font-size: 24px;
-    margin-left: 200px;
-    float: left;
-}
-
-.fade-in3:hover {
-	cursor: pointer;
-	color: #67bdb3;
-}
-
-#float_products {
-	float: left;
-	margin-left: 10px;
-}
 
 #container
 {
@@ -217,10 +199,10 @@ h1{
 .hideme
 {
     opacity:0;
-    font-family: 'avenir next';
-    font-size: 20px;
-    margin-left: 200px;
-    margin-top: -100px;
+    font-size: 48px;
+	font-weight: 900;
+	font-family: 'avenir next';
+	text-align: center;
 }
 
 #cbd_heading {
@@ -230,3 +212,66 @@ h1{
 	font-family: 'avenir next';
 	font-size: 32px;
 }
+
+body{
+  font-family: 'Noto Sans', sans-serif;
+	margin:0;
+	width:100%;
+	height:100vh;
+  	background:#ffffff;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+header{
+	width:100%; 
+	background:#ffffff; 
+	height:60px; 
+	line-height:60px;
+	border-bottom:1px solid #dddddd;
+}
+.hamburger{
+  background:none;
+  top:0;
+  right:0;
+  line-height:65px;
+  padding:5px 15px 0px 15px;
+  color:#999;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.cross{
+  background:none;
+  top:0px;
+  right:0;
+  padding:5px 15px 0px 15px;
+  color:#999;
+  border:0;
+  font-size:3em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#f1f1f1;  position:relative; text-align:center; font-size:12px;}
+.menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+.menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+.menu li:hover{display: block;    background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+.menu ul li a { text-decoration:none;  margin: 0px; color:#666;}
+.menu ul li a:hover {  color: #666; text-decoration:none;}
+.menu a{text-decoration:none; color:#666;}
+.menu a:hover{text-decoration:none; color:#666;}
+
+.glyphicon-home{
+  color:white; 
+  font-size:1.5em; 
+  margin-top:5px; 
+  margin:0 auto;
+}
+header{display:inline-block; font-size:12px;}
+span{padding-left:20px;}
+a{color:#336699;}

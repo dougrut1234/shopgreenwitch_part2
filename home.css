@@ -1,0 +1,232 @@
+#heading {
+	font-family: 'alpaca scarlett demo', sans-serif;
+	font-size: 32px;
+	margin-left: 20px;
+}
+
+#logo {
+	margin-top: 60px;
+	margin-left: 25%;
+	animation-timing-function: 1s;
+	animation: fadeIn ease 4s;
+	animation-delay: 4s;
+  -webkit-animation: fadeIn ease 4s;
+  -moz-animation: fadeIn ease 4s;
+  -o-animation: fadeIn ease 4s;
+  -ms-animation: fadeIn ease 4s;
+}
+
+h1{
+  color: black;
+  font-family: 'alpaca scarlett demo', sans-serif;
+  font-weight: 200;
+  font-size: 24px;
+  margin: 40px 0px 20px;
+  float: right;
+  margin-top: -80px;
+  margin-right: 25px;
+}
+
+#clockdiv{
+	float: right;
+	margin-top: -40px;
+	margin-right: 25px;
+	font-family: 'avenir next';
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 15px;
+
+}
+
+#clockdiv > div{
+	padding: 10px;
+	border-radius: 2px;
+	background: #00BF96;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	border-radius: 3px;
+	background: #00816A;
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 9px;
+}
+
+@keyframes fadeIn{
+  0% {
+    opacity:0;
+  }
+  50% {
+  	opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+ 0% {
+    opacity:0;
+  }
+  50% {
+  	opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  50% {
+  	opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  50% {
+  	opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  50% {
+  	opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
+
+.fade-in1 {
+    opacity:0;  /* make things invisible upon start */
+    -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+    -moz-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+    animation-delay: 2s;
+
+    -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+
+    -webkit-animation-duration:1s;
+    -moz-animation-duration:1s;
+    animation-duration:1s;
+    font-family: 'alpaca scarlett demo', sans-serif;
+    font-size: 24px;
+    margin-left: 205px;
+    float: left;
+}
+
+.fade-in1:hover {
+	cursor: pointer;
+	color: #67bdb3;
+}
+
+.fade-in2 {
+    opacity:0;  /* make things invisible upon start */
+    -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+    -moz-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+    animation-delay: 2.5s;
+
+    -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+
+    -webkit-animation-duration:1s;
+    -moz-animation-duration:1s;
+    animation-duration:1s;
+    font-family: 'alpaca scarlett demo', sans-serif;
+    font-size: 24px;
+    margin-left: 200px;
+    float: left;
+}
+
+.fade-in2:hover {
+	cursor: pointer;
+	color: #67bdb3;
+}
+
+.fade-in3 {
+    opacity:0;  /* make things invisible upon start */
+    -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+    -moz-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+    animation-delay: 3s;
+
+    -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+
+    -webkit-animation-duration:1s;
+    -moz-animation-duration:1s;
+    animation-duration:1s;
+    font-family: 'alpaca scarlett demo', sans-serif;
+    font-size: 24px;
+    margin-left: 200px;
+    float: left;
+}
+
+.fade-in3:hover {
+	cursor: pointer;
+	color: #67bdb3;
+}
+
+#float_products {
+	float: left;
+	margin-left: 10px;
+}
+
+#container
+{
+    height:2000px;    
+}
+
+#container DIV
+{ 
+	margin-top: 100px;
+    margin-left:150px; 
+    margin-right: 100px;
+    text-align: justify; 
+}
+
+.hideme
+{
+    opacity:0;
+    font-family: 'avenir next';
+    font-size: 20px;
+    margin-left: 200px;
+    margin-top: -100px;
+}
+
+#cbd_heading {
+	margin-top: 150px;
+	margin-bottom: -50px;
+	margin-left: 100px;
+	font-family: 'avenir next';
+	font-size: 32px;
+}

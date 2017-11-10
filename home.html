@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="home.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="js/home.js"></script>
+</head>
+<body>
+
+<p id="heading">Green Witch</p>
+
+<h1>CBD Cottage Opens In</h1>
+<div id="clockdiv">
+  <div>
+    <span class="days"></span>
+    <div class="smalltext">Days</div>
+  </div>
+  <div>
+    <span class="hours"></span>
+    <div class="smalltext">Hours</div>
+  </div>
+  <div>
+    <span class="minutes"></span>
+    <div class="smalltext">Minutes</div>
+  </div>
+  <div>
+    <span class="seconds"></span>
+    <div class="smalltext">Seconds</div>
+  </div>
+</div>
+
+
+<img id="logo" src="green_witch_logo.png">
+
+
+
+<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us17.list-manage.com","uuid":"7389b87141ed1f69e7e763169","lid":"c0e6bad048"}) })</script>
+
+<div id="float_products">
+<p class="fade-in1">Capsules</p>
+<p class="fade-in2">Oils</p>
+<p class="fade-in3">Gummies</p>
+</div>
+
+<div id="container">
+    
+ 
+    <p id="cbd_heading">CANNABIDIOL (can·na·bi·di·ol)</p>
+    <div class="hideme">Cannabidiol a.k.a CBD is a non-psychoactive component of the hemp plant.
+Because CBD delivers the benefits of medical marijuana without the buzz, it is increasingly being used to treat or supplement treatment of a variety of conditions. CBD is actually very similar to a naturally-occurring compound in our bodies located in the Endocannabinoid system. (which literally means “cannabinoid from within”). The endocannabinoids which are produced here can be located throughout our central nervous system and are responsible for controlling many processes such as sleep, digestion, mood, immune function, motor function, memory, and pain. When CBD is ingested it stimulates the production of endocannabinoids in our body.</div>
+   
+
+<script>
+
+var countDownDate = new Date("Dec 1, 2017 00:00:01").getTime();
+
+function initializeClock(id, endtime) {
+  var clock = document.getElementById(id);
+  var daysSpan = clock.querySelector('.days');
+  var hoursSpan = clock.querySelector('.hours');
+  var minutesSpan = clock.querySelector('.minutes');
+  var secondsSpan = clock.querySelector('.seconds');
+
+  function updateClock() {
+    var t = getTimeRemaining(endtime);
+
+    daysSpan.innerHTML = t.days;
+    hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+    minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+    secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+
+    if (t.total <= 0) {
+      clearInterval(timeinterval);
+    }
+  }
+
+  updateClock();
+  var timeinterval = setInterval(updateClock, 1000);
+}
+
+var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
+var deadline = 'December 1 2017 00:00:50 UTC+0200';
+initializeClock('clockdiv', deadline);
+
+</script>    
+
+</body>
+</html>

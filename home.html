@@ -5,12 +5,13 @@
 	<title>Home</title>
 	<link rel="stylesheet" type="text/css" href="home.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="js/home.js"></script>
 </head>
 <body>
 
 
-</span>
+<!-- </span>
   <button class="hamburger">&#9776;</button>
   <button class="cross">&#735;</button>
 </header>
@@ -23,6 +24,17 @@
     <a href="#"><li>CONTACT</li></a>
   </ul>
 </div> 
+ -->
+
+<div id="nav_bar">
+  <p class="meet_the_coven_nav">Meet The Coven</p>
+  <p class="nav">About CBD</p>
+  <p class="nav">Shop</p>
+  <p class="nav">FAQ</p>
+  <p class="nav">Contact</p>
+</div>
+
+
 
 <div id="logo_and_title">
 	<img id="logo" src="green_witch_logo.png">
@@ -38,7 +50,18 @@
 
 <img id="farm" src="farm_picture.png">
 
-<p id="bio">Our Coven was formed through a shared belief in the power of herbs, spieces and minerals to...</p>
+<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us17.list-manage.com","uuid":"7389b87141ed1f69e7e763169","lid":"c0e6bad048"}) })</script>
+
+<p id="bio">Our Coven was formed through a shared belief in the power of herbs, spices, and minerals to promote all types of wellness. While we ‘craft out of DUMBO (Down Under the Manhattan Bridge Overpass) we are boundless when sourcing products that are organically grown, non-GMO, and pure.</p>
+
+
+<img id="leaf1" src="leaf1.png">
+<img id="leaf2" src="leaf2.png">
+<img id="leaf3" src="leaf3.png">
+<img id="leaf4" src="leaf4.png">
+<img id="leaf5" src="leaf4.png">
+
+<img id="brooklyn" src="brooklyn.jpg">
 
 
 
@@ -104,10 +127,13 @@ $( ".hamburger" ).show();
 
 </script>
 
-</body>
-</html>
+<p id="inspiration">INSPIRATION @SHOPGREENWITCH</p>
 
-<!-- <h1>CBD Cottage Opens In</h1>
+<script src="https://snapwidget.com/js/snapwidget.js"></script>
+<iframe id="move_instagram" src="https://snapwidget.com/embed/467519" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; "></iframe>
+
+
+<h1>COTTAGE OPENS IN</h1>
 <div id="clockdiv">
   <div>
     <span class="days"></span>
@@ -126,4 +152,69 @@ $( ".hamburger" ).show();
     <div class="smalltext">Seconds</div>
   </div>
 </div>
- -->
+
+
+<script>
+
+function getTimeRemaining(endtime){
+  var t = Date.parse(endtime) - Date.now();
+  var seconds = Math.floor( (t/1000) % 60 );
+  var minutes = Math.floor( (t/1000/60) % 60 );
+  var hours = Math.floor( (t/(1000*60*60)) % 24 );
+  var days = Math.floor( t/(1000*60*60*24) );
+  return {
+    'total': t,
+    'days': days,
+    'hours': hours,
+    'minutes': minutes,
+    'seconds': seconds
+  };
+}
+
+function initializeClock(id, endtime){
+  var clock = document.getElementById(id);
+  var daysSpan = clock.querySelector('.days');
+  var hoursSpan = clock.querySelector('.hours');
+  var minutesSpan = clock.querySelector('.minutes');
+  var secondsSpan = clock.querySelector('.seconds');
+
+  function updateClock(){
+    var t = getTimeRemaining(endtime);
+
+    daysSpan.innerHTML = t.days;
+    hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+    minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+    secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+
+    if(t.total<=0){
+      clearInterval(timeinterval);
+    }
+  }
+
+  updateClock();
+  var timeinterval = setInterval(updateClock,1000);
+}
+
+var deadline = new Date(Date.now() + 15*24*60*60*1000);
+var deadline = 'December 1 2017 00:00:50 UTC+0200';
+initializeClock('clockdiv', deadline);
+
+</script>
+
+</div>
+</body>
+
+<div id="color_container">
+<p id="follow_us">Go Under Our Spell On</p>
+
+<div id="move_icon">
+<a href="https://www.facebook.com/shopgreenwitch/"><img class="icon" src="facebook.png"></a>
+<a href="https://www.instagram.com/shopgreenwitch/"><img class="icon" src="instagram.png"></a>
+<a href="https://twitter.com/shopgreenwitch?s=17"><img class="icon" src="twitter.png"></a>
+<a href="https://open.spotify.com/user/o1yiv0jal852jm8vxvd9jkdw0/playlist/4WQAOU8AZQv3XVgbGGf4jZ"><img class="icon" src="spotify.png"></a>
+</div>
+
+</div>
+</html>
+
+

@@ -1,21 +1,21 @@
 #heading {
-	font-family: 'alpaca scarlett demo', sans-serif;
-	font-size: 32px;
-	margin-left: 20px;
+  font-family: 'alpaca scarlett demo', sans-serif;
+  font-size: 32px;
+  margin-left: 20px;
 }
 
 #logo_and_title {
-	margin-left: -30px;
-	margin-top: 0px;
+  margin-left: -30px;
+  margin-top: 0px;
 }
 
 #logo {
-	float: right;
-	margin-top: 180px;
-	width: 300px;
-	height: auto;
-	margin-right: 35%;
-	opacity:0;  /* make things invisible upon start */
+  float: right;
+  margin-top: 180px;
+  width: 300px;
+  height: auto;
+  margin-right: 35%;
+  opacity:0;  /* make things invisible upon start */
     -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
     -moz-animation:fadeIn ease-in 1;
     animation:fadeIn ease-in 1;
@@ -31,12 +31,12 @@
 }
 
 #logo_title {
-	margin-top: 30px;
-	margin-left: 340px;
+  margin-top: 30px;
+  margin-left: 340px;
   margin-bottom: 100px;
-	width: 500px;
-	height: auto;
-	  opacity:0;  /* make things invisible upon start */
+  width: 500px;
+  height: auto;
+    opacity:0;  /* make things invisible upon start */
     -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
     -moz-animation:fadeIn ease-in 1;
     animation:fadeIn ease-in 1;
@@ -52,23 +52,23 @@
 }
 
 #move_description {
-	margin-top: 300px;
+  margin-top: 300px;
 }
 
 #farm {
-	width: 100%;
+  width: 100%;
     -webkit-box-reflect:below -1px
     -webkit-gradient(linear, left top, left bottom, from(transparent),
     color-stop(20%, transparent) , to(rgba(250, 250, 250, 0.9)));
 }
 
 #bio {
-	margin-top: 200px;
-	font-family: 'avenir next';
-	font-size: 24px;
-	margin-left: 200px;
-	margin-right: 200px;
-	text-align: center;
+  margin-top: 200px;
+  font-family: 'avenir next';
+  font-size: 24px;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
 }
 
 #brooklyn {
@@ -136,39 +136,39 @@ li {
 }
 
 #clockdiv{
-	float: right;
+  float: right;
   padding: 20px;
-	margin-top: 10px;
-	margin-right: 250px;
-	font-family: 'avenir next';
-	display: inline-block;
-	font-weight: bold;
-	text-align: center;
+  margin-top: 10px;
+  margin-right: 250px;
+  font-family: 'avenir next';
+  display: inline-block;
+  font-weight: bold;
+  text-align: center;
   color: black;
-	font-size: 24px;
+  font-size: 24px;
 
 }
 
 
 #clockdiv > div{
-	padding: 20px;
+  padding: 20px;
   margin-left: 40px
-	border-radius: 5px;
-	background: #ddd9c5;
-	display: inline-block;
+  border-radius: 5px;
+  background: #ddd9c5;
+  display: inline-block;
 }
 
 #clockdiv div > span{
-	padding: 20px;
+  padding: 20px;
   margin-left: 40px
-	border-radius: 3px;
-	background: white;
-	display: inline-block;
+  border-radius: 3px;
+  background: white;
+  display: inline-block;
 }
 
 .smalltext{
-	padding-top: 10px;
-	font-size: 20px;
+  padding-top: 10px;
+  font-size: 20px;
   color: black;
 }
 
@@ -177,7 +177,7 @@ li {
     opacity:0;
   }
   50% {
-  	opacity:0;
+    opacity:0;
   }
   100% {
     opacity:1;
@@ -189,7 +189,7 @@ li {
     opacity:0;
   }
   50% {
-  	opacity:0;
+    opacity:0;
   }
   100% {
     opacity:1;
@@ -200,7 +200,7 @@ li {
     opacity:0;
   }
   50% {
-  	opacity:0;
+    opacity:0;
   }
   100% {
     opacity:1;
@@ -212,7 +212,7 @@ li {
     opacity:0;
   }
   50% {
-  	opacity:0;
+    opacity:0;
   }
   100% {
     opacity:1;
@@ -223,7 +223,7 @@ li {
     opacity:0;
   }
   50% {
-  	opacity:0;
+    opacity:0;
   }
   100% {
     opacity:1;
@@ -244,7 +244,7 @@ li {
 
 #container DIV
 { 
-	margin-top: 100px;
+  margin-top: 100px;
     margin-left:150px; 
     margin-right: 100px;
     text-align: justify; 
@@ -254,10 +254,10 @@ li {
 {
     opacity:0;
     font-size: 48px;
-	font-weight: 500;
+  font-weight: 500;
   margin-left: 50px;
   text-align: center;
-	font-family: 'alpaca scarlett demo', sans-serif;
+  font-family: 'alpaca scarlett demo', sans-serif;
 
 }
 
@@ -267,28 +267,28 @@ li {
 }
 
 #cbd_heading {
-	margin-top: 150px;
-	margin-bottom: -50px;
-	margin-left: 100px;
-	font-family: 'avenir next';
-	font-size: 32px;
+  margin-top: 150px;
+  margin-bottom: -50px;
+  margin-left: 100px;
+  font-family: 'avenir next';
+  font-size: 32px;
 }
 
 body{
   font-family: 'Noto Sans', sans-serif;
-	margin:0;
-	width:100%;
-	height:100vh;
-  	background:#ffffff;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+  margin:0;
+  width:100%;
+  height:100vh;
+    background:#ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 header{
-	width:100%; 
-	background:#ffffff; 
-	height:60px; 
-	line-height:60px;
-	border-bottom:1px solid #dddddd;
+  width:100%; 
+  background:#ffffff; 
+  height:60px; 
+  line-height:60px;
+  border-bottom:1px solid #dddddd;
 }
 .hamburger{
   background:none;
@@ -342,19 +342,11 @@ a{color:#336699;}
   float: left;
   font-size: 24px;
   font-family: 'avenir next';
-  margin-left: 130px;
+  margin-left: 160px;
   background-color: #606060;
   color: white;
 }
 
-.meet_the_coven_nav {
-  float: left;
-  font-size: 24px;
-  font-family: 'avenir next';
-  margin-left: 140px;
-  background-color: #606060;
-  color: white;
-}
 
 .nav:hover {
   color: #c2bd8f;
@@ -372,6 +364,111 @@ a{color:#336699;}
   width: 100%;
   position: fixed;
   z-index: 100000;
+  margin-top: -150px;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="zip"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "avenir next", sans-serif; }
+
+#contact {
+  padding-left: 100px;
+  padding-right: 100px;
+  margin:30px 0;
+}
+
+#contact h3 {
+  font-family: 'avenir next';
+  display: block;
+  font-size: 36px;
+  font-weight: bold;
+  color:#67bdb3;
+  text-align:center;
+  margin-top: -25%;
+}
+
+#contact h4 {
+  font-family:'avenir next';
+  margin:5px 0 15px;
+  display:block;
+  font-size:13px;
+  text-align:center;
+}
+
+fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="zip"], #contact input[type="url"], #contact textarea {
+    width:100%;
+    border:1px solid #CCC;
+    margin:0 0 5px;
+    padding:10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="zip"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+    -webkit-transition:border-color 0.3s ease-in-out;
+    -moz-transition:border-color 0.3s ease-in-out;
+    transition:border-color 0.3s ease-in-out;
+    border:1px solid #AAA;
+}
+
+#contact textarea {
+    height:100px;
+    max-width:100%;
+    resize:none;
+}
+
+#submit-div {
+    width:100%;
+}
+
+#contact button[type="submit"] {
+    cursor:pointer;
+    width:25%;
+    padding-left:25%;
+    padding-right:25%;
+    border:none;
+    background:#67bdb3;
+    color:#fff;
+    margin:auto;
+    padding:10px;
+    font-size:15px;
+    display:block;
+}
+
+#contact button[type="submit"]:hover {
+    background:#09C;
+    -webkit-transition:background 0.3s ease-in-out;
+    -moz-transition:background 0.3s ease-in-out;
+    transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+    outline:0;
+    border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:#888;
+}
+:-moz-placeholder {
+ color:#888;
+}
+::-moz-placeholder {
+ color:#888;
+}
+:-ms-input-placeholder {
+ color:#888;
+}
+
+.container2 {
+  margin-top: 210px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 #follow_us {
@@ -408,4 +505,29 @@ a{color:#336699;}
 
 .icon:hover {
   opacity: .5;
+}
+
+h2.background
+{
+  position: relative;
+  z-index: 1;
+  text-align:center;
+  font-size: 48px;
+  font-family: 'alpaca scarlett demo', sans-serif;
+  margin-top: 150px;
+
+}
+h2::before
+{
+  border-top: 2px solid #dfdfdf;
+  content:"";
+  margin: 0 auto;
+  position: absolute; 
+  top: 50%; left: 0; right: 0; bottom: 0;
+  z-index: -1;
+}
+h2 span
+{
+  background: #fff; 
+  padding: 0 10px; 
 }

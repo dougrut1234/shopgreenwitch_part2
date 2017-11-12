@@ -239,15 +239,15 @@ li {
 
 #container
 {
-    height:2000px;    
+    height:2000px;
 }
 
 #container DIV
-{ 
+{
 	margin-top: 100px;
-    margin-left:150px; 
+    margin-left:150px;
     margin-right: 100px;
-    text-align: justify; 
+    text-align: justify;
 }
 
 .hideme
@@ -284,9 +284,9 @@ body{
 	-moz-osx-font-smoothing: grayscale;
 }
 header{
-	width:100%; 
-	background:#ffffff; 
-	height:60px; 
+	width:100%;
+	background:#ffffff;
+	height:60px;
 	line-height:60px;
 	border-bottom:1px solid #dddddd;
 }
@@ -328,9 +328,9 @@ header{
 .menu a:hover{text-decoration:none; color:#666;}
 
 .glyphicon-home{
-  color:white; 
-  font-size:1.5em; 
-  margin-top:5px; 
+  color:white;
+  font-size:1.5em;
+  margin-top:5px;
   margin:0 auto;
 }
 header{display:inline-block; font-size:12px;}
@@ -343,8 +343,8 @@ a{color:#336699;}
   font-size: 24px;
   font-family: 'avenir next';
   margin-left: 130px;
-  background-color: #606060;
-  color: white;
+  /*background-color: #606060;*/
+  color: fff;
 }
 
 .meet_the_coven_nav {
@@ -352,8 +352,8 @@ a{color:#336699;}
   font-size: 24px;
   font-family: 'avenir next';
   margin-left: 140px;
-  background-color: #606060;
-  color: white;
+  /*background-color: #606060;*/
+  color: fff;
 }
 
 .nav:hover {
@@ -368,10 +368,12 @@ a{color:#336699;}
 
 #nav_bar {
   float: left;
-  background-color: #606060;
+  background-color: #fff;
   width: 100%;
   position: fixed;
   z-index: 100000;
+	outline-style:solid;
+	outline-color:#c2bd8f;
 }
 
 #follow_us {

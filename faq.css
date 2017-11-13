@@ -1,3 +1,13 @@
+#gw-logo {
+  width:25%;
+  margin-left: 37.5%;
+  margin-right:37.5%;
+}
+
+#gwlogo {
+  width:100%;
+}
+
 #heading {
   font-family: 'alpaca scarlett demo', sans-serif;
   font-size: 32px;
@@ -239,15 +249,15 @@ li {
 
 #container
 {
-    height:2000px;    
+    height:2000px;
 }
 
 #container DIV
-{ 
+{
   margin-top: 100px;
-    margin-left:150px; 
+    margin-left:150px;
     margin-right: 100px;
-    text-align: justify; 
+    text-align: justify;
 }
 
 .hideme
@@ -284,9 +294,9 @@ body{
   -moz-osx-font-smoothing: grayscale;
 }
 header{
-  width:100%; 
-  background:#ffffff; 
-  height:60px; 
+  width:100%;
+  background:#ffffff;
+  height:60px;
   line-height:60px;
   border-bottom:1px solid #dddddd;
 }
@@ -328,9 +338,9 @@ header{
 .menu a:hover{text-decoration:none; color:#666;}
 
 .glyphicon-home{
-  color:white; 
-  font-size:1.5em; 
-  margin-top:5px; 
+  color:white;
+  font-size:1.5em;
+  margin-top:5px;
   margin:0 auto;
 }
 header{display:inline-block; font-size:12px;}
@@ -446,12 +456,12 @@ h2::before
   border-top: 2px solid #dfdfdf;
   content:"";
   margin: 0 auto;
-  position: absolute; 
+  position: absolute;
   top: 50%; left: 0; right: 0; bottom: 0;
   z-index: -1;
 }
 h2 span
 {
-  background: #fff; 
-  padding: 0 10px; 
+  background: #fff;
+  padding: 0 10px;
 }

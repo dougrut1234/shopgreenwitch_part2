@@ -1,3 +1,13 @@
+#gw-logo {
+  width:25%;
+  margin-left: 37.5%;
+  margin-right:37.5%;
+}
+
+#gwlogo {
+  width:100%;
+}
+
 #heading {
   font-family: 'alpaca scarlett demo', sans-serif;
   font-size: 32px;
@@ -435,12 +445,12 @@ h2::before
   border-top: 2px solid #dfdfdf;
   content:"";
   margin: 0 auto;
-  position: absolute; 
+  position: absolute;
   top: 50%; left: 0; right: 0; bottom: 0;
   z-index: -1;
 }
 h2 span
 {
-  background: #fff; 
-  padding: 0 10px; 
+  background: #fff;
+  padding: 0 10px;
 }

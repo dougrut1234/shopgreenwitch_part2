@@ -343,22 +343,33 @@ a {
 
 .nav {
   float: left;
-  font-size: 24px;
+  font-size: 18px;
   font-family: 'avenir next';
-  margin-left: 130px;
   font-color: black;
   /*background-color: #606060;*/
   color: fff;
+	list-style-type: none;
+	display: inline-block;
+	text-decoration: none;
 }
 
-.meet_the_coven_nav {
-  float: left;
-  font-size: 24px;
+.meet_the_coven_nav li a{
+  font-size: 18px;
   font-family: 'avenir next';
-  margin-left: 140px;
   font-color: black;
   /*background-color: #606060;*/
   color: fff;
+	list-style-type: none;
+	display: inline-block;
+	text-decoration: none;
+}
+
+
+
+#gw-logo {
+  width:15%;
+	list-style-type: none;
+	display: inline-block;
 }
 
 .nav:hover {
@@ -372,13 +383,12 @@ a {
 }
 
 #nav_bar {
-  float: left;
-  background-color: #fff;
+  background-color:#67BDB3;
   width: 100%;
-  position: fixed;
-  z-index: 100000;
-	outline-style:solid;
-	outline-color:#c2bd8f;
+  position: static;
+  z-index: 10000;
+	height: 50px;
+	margin-top: 2%;
 }
 
 #follow_us {
@@ -462,7 +472,7 @@ a {
 
 
 @keyframes moveSlideshow {
-  100% { 
-    transform: translateX(-66.6666%);  
+  100% {
+    transform: translateX(-66.6666%);
   }
 }

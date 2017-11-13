@@ -356,35 +356,41 @@ a {
   float: left;
   font-size: 24px;
   font-family: 'avenir next';
-  margin-left: 160px;
+  margin-left: 130px;
   font-color: black;
-  /*background-color: #606060;*/
+  /*background-color: #606060 ;*/
   color: fff;
 }
 
-
+.meet_the_coven_nav {
+  float: left;
+  font-size: 24px;
+  font-family: 'avenir next';
+  margin-left: 140px;
+  font-color: black;
+  /*background-color: #606060 ;*/
+  color: fff;
+}
 
 .nav:hover {
-  color: #c2bd8f;
+  color: #c2bd8f ;
   cursor: pointer;
 }
 
 .meet_the_coven_nav:hover {
-  color: #c2bd8f;
+  color: #c2bd8f ;
   cursor: pointer;
 }
 
 #nav_bar {
   float: left;
   background-color: #fff;
-  margin-top: -149px;
   width: 100%;
   position: fixed;
   z-index: 100000;
-  outline-style:solid;
-  outline-color:#c2bd8f;
+    outline-style:solid;
+    outline-color:#c2bd8f ;
 }
-
 
 
 .FAQ, .FAQ1, .FAQ2, .FAQ3, .FAQ4, .FAQ5, .FAQ6, .FAQ7, .FAQ8, .FAQ9, .FAQ10, .FAQ11, .FAQ12, .FAQ13, .FAQ14, .FAQ15, .FAQ16, .FAQ17, .FAQ18, .FAQ19 { cursor:hand; cursor:pointer; margin-top: 25px; margin-left: 80px; margin-right: 150px; font-family: 'avenir next'; font-size: 24px;

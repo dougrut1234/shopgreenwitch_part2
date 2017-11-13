@@ -341,35 +341,55 @@ a {
   color: black;
 }
 
+#center-logo {
+	width:100%;
+}
+
+#gw-logo {
+	padding-top: 2%;
+	width: 25%;
+	margin-left: 37.5%;
+	margin-right: 37.5%;
+}
+
 .nav {
   float: left;
   font-size: 18px;
   font-family: 'avenir next';
+  margin-left: 130px;
   font-color: black;
-  /*background-color: #606060;*/
+  /*background-color: #606060 ;*/
   color: fff;
-	list-style-type: none;
-	display: inline-block;
-	text-decoration: none;
 }
 
-.meet_the_coven_nav li a{
+.meet_the_coven_nav {
+  float: left;
   font-size: 18px;
   font-family: 'avenir next';
+  margin-left: 140px;
   font-color: black;
-  /*background-color: #606060;*/
+  /*background-color: #606060 ;*/
   color: fff;
-	list-style-type: none;
-	display: inline-block;
-	text-decoration: none;
 }
 
+.nav:hover {
+  color: #c2bd8f ;
+  cursor: pointer;
+}
 
+.meet_the_coven_nav:hover {
+  color: #c2bd8f ;
+  cursor: pointer;
+}
 
-#gw-logo {
-  width:15%;
-	list-style-type: none;
-	display: inline-block;
+#nav_bar {
+  float: left;
+  background-color: #fff;
+  width: 100%;
+  position: fixed;
+  z-index: 100000;
+	border-bottom: 1px solid;
+  border-color:#c2bd8f;
 }
 
 .nav:hover {
@@ -380,15 +400,6 @@ a {
 .meet_the_coven_nav:hover {
   color: #c2bd8f;
   cursor: pointer;
-}
-
-#nav_bar {
-  background-color:#67BDB3;
-  width: 100%;
-  position: static;
-  z-index: 10000;
-	height: 50px;
-	margin-top: 2%;
 }
 
 #follow_us {

@@ -356,32 +356,40 @@ a {
   float: left;
   font-size: 24px;
   font-family: 'avenir next';
-  margin-left: 160px;
+  margin-left: 130px;
   font-color: black;
-  /*background-color: #606060;*/
+  /*background-color: #606060 ;*/
   color: fff;
 }
 
+.meet_the_coven_nav {
+  float: left;
+  font-size: 24px;
+  font-family: 'avenir next';
+  margin-left: 140px;
+  font-color: black;
+  /*background-color: #606060 ;*/
+  color: fff;
+}
 
 .nav:hover {
-  color: #c2bd8f;
+  color: #c2bd8f ;
   cursor: pointer;
 }
 
 .meet_the_coven_nav:hover {
-  color: #c2bd8f;
+  color: #c2bd8f ;
   cursor: pointer;
 }
 
 #nav_bar {
   float: left;
   background-color: #fff;
-  margin-top: -149px;
   width: 100%;
   position: fixed;
   z-index: 100000;
-  outline-style:solid;
-  outline-color:#c2bd8f;
+    outline-style:solid;
+    outline-color:#c2bd8f ;
 }
 
 #contact input[type="text"], #contact input[type="email"], #contact input[type="zip"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "avenir next", sans-serif; }

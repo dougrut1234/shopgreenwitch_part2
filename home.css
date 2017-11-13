@@ -11,7 +11,7 @@
 
 #logo {
 	float: right;
-	margin-top: 180px;
+	margin-top: 120px;
 	width: 300px;
 	height: auto;
 	margin-right: 35%;
@@ -52,7 +52,7 @@
 }
 
 #move_description {
-	margin-top: 300px;
+	margin-top: 150px;
 }
 
 #farm {
@@ -337,12 +337,16 @@ header{display:inline-block; font-size:12px;}
 span{padding-left:20px;}
 a{color:#336699;}
 
+a {
+  color: black;
+}
 
 .nav {
   float: left;
   font-size: 24px;
   font-family: 'avenir next';
   margin-left: 130px;
+  font-color: black;
   /*background-color: #606060;*/
   color: fff;
 }
@@ -352,6 +356,7 @@ a{color:#336699;}
   font-size: 24px;
   font-family: 'avenir next';
   margin-left: 140px;
+  font-color: black;
   /*background-color: #606060;*/
   color: fff;
 }
@@ -410,4 +415,54 @@ a{color:#336699;}
 
 .icon:hover {
   opacity: .5;
+}
+
+.tech-slideshow {
+  height: 225px;
+  margin-top: -50px;
+  margin-left: 150px;
+  max-width: 800px;
+  position: relative;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+   opacity:0;  /* make things invisible upon start */
+    -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+    -moz-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+    animation-delay: 2s;
+
+    -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+
+    -webkit-animation-duration:1s;
+    -moz-animation-duration:1s;
+    animation-duration:1s;
+}
+
+.tech-slideshow > div {
+  height: 600px;
+  width: 2526px;
+  background: url(slideshow.png);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transform: translate3d(0, 0, 0);
+}
+.tech-slideshow .mover-1 {
+  animation: moveSlideshow 30s linear infinite;
+}
+.tech-slideshow .mover-2 {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+  background-position: 0 -200px;
+  animation: moveSlideshow 30s linear infinite;
+}
+
+
+@keyframes moveSlideshow {
+  100% { 
+    transform: translateX(-66.6666%);  
+  }
 }

@@ -239,15 +239,15 @@ li {
 
 #container
 {
-    height:2000px;    
+    height:2000px;
 }
 
 #container DIV
-{ 
+{
   margin-top: 100px;
-    margin-left:150px; 
+    margin-left:150px;
     margin-right: 100px;
-    text-align: justify; 
+    text-align: justify;
 }
 
 .hideme
@@ -284,9 +284,9 @@ body{
   -moz-osx-font-smoothing: grayscale;
 }
 header{
-  width:100%; 
-  background:#ffffff; 
-  height:60px; 
+  width:100%;
+  background:#ffffff;
+  height:60px;
   line-height:60px;
   border-bottom:1px solid #dddddd;
 }
@@ -328,15 +328,14 @@ header{
 .menu a:hover{text-decoration:none; color:#666;}
 
 .glyphicon-home{
-  color:white; 
-  font-size:1.5em; 
-  margin-top:5px; 
+  color:white;
+  font-size:1.5em;
+  margin-top:5px;
   margin:0 auto;
 }
 header{display:inline-block; font-size:12px;}
 span{padding-left:20px;}
 a{color:#336699;}
-
 
 a {
   color: black;
@@ -375,27 +374,8 @@ a {
   outline-color:#c2bd8f;
 }
 
-
-
-.FAQ, .FAQ1, .FAQ2, .FAQ3, .FAQ4, .FAQ5, .FAQ6, .FAQ7, .FAQ8, .FAQ9, .FAQ10, .FAQ11, .FAQ12, .FAQ13, .FAQ14, .FAQ15, .FAQ16, .FAQ17, .FAQ18, .FAQ19 { cursor:hand; cursor:pointer; margin-top: 25px; margin-left: 80px; margin-right: 150px; font-family: 'avenir next'; font-size: 24px;
-      }
- .FAQ, .FAA1, .FAA2, .FAA3, .FAA4, .FAA5, .FAA6, .FAA7, .FAA8, .FAA9, .FAA10, .FAA11, .FAA12, .FAA13, .FAA14, .FAA15, .FAA16, .FAA17, .FAA18, .FAA19 { display:none; margin-top: 10px;
-  margin-left: 24px; margin-right: 40px; font-size: 20px; font-family: 'avenir next';}
-
-#move_faq {
-  clear: left;
-  clear: right;
-  margin-top: 50px;
-}
-
-
-.container2 {
-  margin-top: 210px;
-  margin-left: 100px;
-  margin-right: 100px;
-}
-
 #follow_us {
+  clear: left;
   font-size: 32px;
   font-weight: 800;
   padding-top: 10px;
@@ -405,7 +385,9 @@ a {
 }
 
 #color_container {
-  margin-top: 300px;
+  clear: left;
+  margin-bottom: -500px;
+  margin-top: 100px;
   height: 250px;
   width: 100%;
   background-color: #ddd9c5;
@@ -429,6 +411,13 @@ a {
 
 .icon:hover {
   opacity: .5;
+}
+
+#float_products {
+  float: left;
+  margin-top: 50px;
+  margin-bottom: 200px;
+  margin-left: 210px;
 }
 
 h2.background

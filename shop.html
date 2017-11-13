@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="shop.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/home.js"></script>
+</head>
+<body>
+
+
+<!-- </span>
+  <button class="hamburger">&#9776;</button>
+  <button class="cross">&#735;</button>
+</header>
+
+<div class="menu">
+  <ul>
+    <a href="#"><li>MEET THE COVEN</li></a>
+    <a href="#"><li>SHOP</li></a>
+    <a href="#"><li>FAQ</li></a>
+    <a href="#"><li>CONTACT</li></a>
+  </ul>
+</div> 
+ -->
+
+<div id="nav_bar">
+  <a href="home.html"><p class="nav">Home</p></a>
+  <p class="nav">Shop</p>
+  <a href="faq.html"><p class="nav">FAQ</p></a>
+  <a href="contact.html"><p class="nav">Contact</p></a>
+</div>
+
+<h2 class="background"><span>SHOP</span></h2>
+
+<div id="float_products">
+<div id='product-component-e04b81b138e' style="float: left; padding-left: 50px;"></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'dumbo-labs.myshopify.com',
+      apiKey: '7bbfb0c9aad260f77bef4c1e51319294',
+      appId: '6',
+    });
+
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: [273666539549],
+        node: document.getElementById('product-component-e04b81b138e'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "buttonDestination": "modal",
+    "variantId": "all",
+    "width": "240px",
+    "contents": {
+      "imgWithCarousel": false,
+      "variantTitle": false,
+      "options": false,
+      "description": false,
+      "buttonWithQuantity": false,
+      "quantity": false
+    },
+    "text": {
+      "button": "VIEW PRODUCT"
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0",
+          "margin-bottom": "50px"
+        }
+      },
+      "button": {
+        "background-color": "#67bdb3",
+        "padding-left": "36px",
+        "padding-right": "36px",
+        ":hover": {
+          "background-color": "#5daaa1"
+        },
+        "border-radius": "4px",
+        ":focus": {
+          "background-color": "#5daaa1"
+        }
+      },
+      "variantTitle": {
+        "font-size": "16px"
+      },
+      "description": {
+        "font-size": "16px"
+      },
+      "compareAt": {
+        "font-size": "12px"
+      }
+    }
+  },
+  "cart": {
+    "contents": {
+      "button": true
+    },
+    "styles": {
+      "button": {
+        "background-color": "#67bdb3",
+        ":hover": {
+          "background-color": "#5daaa1"
+        },
+        "border-radius": "4px",
+        ":focus": {
+          "background-color": "#5daaa1"
+        }
+      },
+      "footer": {
+        "background-color": "#ffffff"
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "variantTitle": false,
+      "buttonWithQuantity": true,
+      "button": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "background-color": "#67bdb3",
+        "padding-left": "36px",
+        "padding-right": "36px",
+        ":hover": {
+          "background-color": "#5daaa1"
+        },
+        "border-radius": "4px",
+        ":focus": {
+          "background-color": "#5daaa1"
+        }
+      }
+    }
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "background-color": "#67bdb3",
+        ":hover": {
+          "background-color": "#5daaa1"
+        },
+        ":focus": {
+          "background-color": "#5daaa1"
+        }
+      }
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  }
+}
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
+
+<div id='product-component-da1a7228bf5' style="float: left; margin-top: 11px; padding-left: 80px;"></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'dumbo-labs.myshopify.com',
+      apiKey: '7bbfb0c9aad260f77bef4c1e51319294',
+      appId: '6',
+    });
+
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: [8896148933],
+        node: document.getElementById('product-component-da1a7228bf5'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "buttonDestination": "modal",
+    "variantId": "all",
+    "width": "240px",
+    "contents": {
+      "imgWithCarousel": false,
+      "variantTitle": false,
+      "options": false,
+      "description": false,
+      "buttonWithQuantity": false,
+      "quantity": false
+    },
+    "text": {
+      "button": "VIEW PRODUCT"
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0",
+          "margin-bottom": "50px"
+        }
+      },
+      "button": {
+        "background-color": "#67bdb3",
+        "padding-left": "36px",
+        "padding-right": "36px",
+        ":hover": {
+          "background-color": "#5daaa1"
+        },
+        "border-radius": "4px",
+        ":focus": {
+          "background-color": "#5daaa1"
+        }
+      },
+      "variantTitle": {
+        "font-size": "16px"
+      },
+      "description": {
+        "font-size": "16px"
+      },
+      "compareAt": {
+        "font-size": "12px"
+      }
+    }
+  },
+  "cart": {
+    "contents": {
+      "button": true
+    },
+    "styles": {
+      "button": {
+        "background-color": "#67bdb3",
+        ":hover": {
+          "background-color": "#5daaa1"
+        },
+        "border-radius": "4px",
+        ":focus": {
+          "background-color": "#5daaa1"
+        }
+      },
+      "footer": {
+        "background-color": "#ffffff"
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "variantTitle": false,
+      "buttonWithQuantity": true,
+      "button": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "background-color": "#67bdb3",
+        "padding-left": "36px",
+        "padding-right": "36px",
+        ":hover": {
+          "background-color": "#5daaa1"
+        },
+        "border-radius": "4px",
+        ":focus": {
+          "background-color": "#5daaa1"
+        }
+      }
+    }
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "background-color": "#67bdb3",
+        ":hover": {
+          "background-color": "#5daaa1"
+        },
+        ":focus": {
+          "background-color": "#5daaa1"
+        }
+      }
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  }
+}
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
+</div>
+
+
+<div id="color_container">
+<p id="follow_us">Go Under Our Spell On</p>
+
+<div id="move_icon">
+<a href="https://www.facebook.com/shopgreenwitch/"><img class="icon" src="facebook.png"></a>
+<a href="https://www.instagram.com/shopgreenwitch/"><img class="icon" src="instagram.png"></a>
+<a href="https://twitter.com/shopgreenwitch?s=17"><img class="icon" src="twitter.png"></a>
+<a href="https://open.spotify.com/user/o1yiv0jal852jm8vxvd9jkdw0/playlist/4WQAOU8AZQv3XVgbGGf4jZ"><img class="icon" src="spotify.png"></a>
+</div>
+
+</div>
+</html>

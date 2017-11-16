@@ -271,7 +271,7 @@ p {
   float: left;
   font-size: 18px;
   font-family: 'avenir next';
-  margin-left: 130px;
+  margin-left: 135px;
   font-color: #3d3935;
   /*background-color: #606060 ;*/
 }
@@ -305,6 +305,7 @@ p {
 	border-bottom: 1px solid;
   border-color:#c2bd8f;
 	padding-top: 7%;
+  padding-bottom: 3%;
 }
 
 .nav:hover {
@@ -565,4 +566,22 @@ p {
   float: left;
   margin-left: 3%;
   font-family: "avenir next", sans-serif;
+}
+
+#discounts {
+  float: right;
+  margin-right: 15%;
+  margin-top: -10%;
+  font-size: 24px;
+  font-family: "avenir next", sans-serif;
+}
+
+#discounts:hover {
+  float: right;
+  margin-right: 15%;
+  margin-top: -10%;
+  font-size: 24px;
+  font-family: "avenir next", sans-serif;
+  color: #ddd9c5;
+  cursor: pointer;
 }

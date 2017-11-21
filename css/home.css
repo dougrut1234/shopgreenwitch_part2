@@ -302,16 +302,12 @@ p {
   width: 100%;
   position: fixed;
   z-index: 1000;
-	padding-top: 6%;
-  padding-bottom: 1%;
+	padding-top: 0;
+  padding-bottom: 0;
 	border-bottom: 1px solid #000000;
 	border-top: 1px solid #000000;
 }
 
-nav-border {
-	border-bottom: 1px solid #000000;
-	border-top: 1px solid #000000;
-}
 
 .nav:hover {
   color: #c2bd8f;
